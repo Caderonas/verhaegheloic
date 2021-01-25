@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 157.468 157.468"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata22">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3728"
+     inkscape:window-height="2032"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="5.9948687"
+     inkscape:cx="113.93371"
+     inkscape:cy="84.09869"
+     inkscape:window-x="112"
+     inkscape:window-y="54"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Calque_1-2" />
+  <defs
+     id="defs4">
+    <style
+       id="style2"><!-- Fond -->
+
+        .cls-1{
+            fill: #97a5c0;
+            stroke:#786a62;
+            stroke-miterlimit:10;
+            stroke-width:3px;
+            }
+        .cls-2{
+            stroke:#786a62;
+            stroke-miterlimit:10;
+            stroke-width:3px;
+            fill: #2d1b10;
+            }
+        <!-- Lettres -->
+
+        .cls-3{
+            fill: ##273040;
+            }
+        </style>
+  </defs>
+  <title
+     id="title6">Circles</title>
+  <g
+     id="Calque_2"
+     data-name="Calque 2">
+    <g
+       id="Calque_1-2"
+       data-name="Calque 1">
+      <circle
+         class="cls-1"
+         cx="78.734"
+         cy="78.734"
+         r="77.234"
+         id="circle8" />
+      <line
+         class="cls-2"
+         x1="33.55"
+         y1="124.324"
+         x2="125.337"
+         y2="32.536"
+         id="line10" />
+      <path
+         class="cls-3"
+         d="M50.679,60.262q2.641-4.5,7.686-20.979.531-.339,1.224-.854a5.488,5.488,0,0,1,1.837-1.144q.194,0,.355.338a1.568,1.568,0,0,1,.161.709,11.093,11.093,0,0,1-1.048,2.981q-.741,1.627-2.9,6.9-.822,2-1.781,4.23t-1.361,3.037a54.391,54.391,0,0,1-2.691,4.9,22.175,22.175,0,0,0,8.492,1.289q.225,0,1.643-.032a39,39,0,0,0,.983-5.495l4.415-2.175q.354,1.918.6,4.464-4.7,7.588-14.469,7.589a20.572,20.572,0,0,1-6.14-.9A18.686,18.686,0,0,1,40.93,66.74,11.529,11.529,0,0,1,34.1,64.355q-3.3-2.385-3.3-4.93a10.448,10.448,0,0,1,.177-1.708l4.7-3.948Q39.271,59.586,50.679,60.262ZM61.958,40.991l3.448-4.367h.113q2.514,1.467,2.514,3.191a17.224,17.224,0,0,1-.339,2.739q-2.24,2.53-2.385,2.788a11.83,11.83,0,0,0-1.692-3.755,1.818,1.818,0,0,0-1.24-.644A2.619,2.619,0,0,0,61.958,40.991Z"
+         id="path12"
+         style="fill:#273040;fill-opacity:1" />
+      <path
+         class="cls-3"
+         d="M116.782,89.73q3.253.934,4.043,1.1a14.463,14.463,0,0,1,.614,4.109,12.132,12.132,0,0,1-.919,4.7,24.128,24.128,0,0,0-1.926,1.717q-.99.974-2.231,2.4t-2.434,2.973a91.455,91.455,0,0,0-6.863,10.151l-4.9,2.466-.451-7.477a36.808,36.808,0,0,0-.758-5.833,16.462,16.462,0,0,0-1.385-3.916,17.625,17.625,0,0,0-2.385-3.287,25.685,25.685,0,0,0-12.117-2.9,22.012,22.012,0,0,0-3.449.29,45.439,45.439,0,0,0,3.11-4.8,15.279,15.279,0,0,1,6.881-1.66,17.771,17.771,0,0,1,6.7,1.37,26.658,26.658,0,0,1,3.722,1.893,53.973,53.973,0,0,1,4.479,3.022q.065,1.032.064,1.515,0,.983-.345,5.672t-.8,10.006q5.671-7.9,10.167-11.166l-.145-4.819-3.19.419q.338-.774,1.346-2.554T116.782,89.73Z"
+         id="path14"
+         style="fill:#273040;fill-opacity:1" />
+    </g>
+  </g>
+</svg>

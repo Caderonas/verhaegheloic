@@ -1,0 +1,13 @@
+@import "./theme.scss";
+
+.tl {
+    height: 95vh;
+    @include theme-aware('background-color', 'color-secondary');
+    padding-left: 10vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    .tl-svg {
+        height: -webkit-fill-available;
+    }
+}
