@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import { SocialIcon } from 'react-social-icons';
 
 import './navbar.scss';
-
 export default class Navbar extends Component {
   render() {
     return (
@@ -17,57 +16,61 @@ export default class Navbar extends Component {
             <path d="M116.782,89.73q3.253.934,4.043,1.1a14.463,14.463,0,0,1,.614,4.109,12.132,12.132,0,0,1-.919,4.7,24.128,24.128,0,0,0-1.926,1.717q-.99.974-2.231,2.4t-2.434,2.973a91.455,91.455,0,0,0-6.863,10.151l-4.9,2.466-.451-7.477a36.808,36.808,0,0,0-.758-5.833,16.462,16.462,0,0,0-1.385-3.916,17.625,17.625,0,0,0-2.385-3.287,25.685,25.685,0,0,0-12.117-2.9,22.012,22.012,0,0,0-3.449.29,45.439,45.439,0,0,0,3.11-4.8,15.279,15.279,0,0,1,6.881-1.66,17.771,17.771,0,0,1,6.7,1.37,26.658,26.658,0,0,1,3.722,1.893,53.973,53.973,0,0,1,4.479,3.022q.065,1.032.064,1.515,0,.983-.345,5.672t-.8,10.006q5.671-7.9,10.167-11.166l-.145-4.819-3.19.419q.338-.774,1.346-2.554T116.782,89.73Z"/>
           </svg>
           <ul className="nav-items">
-            
-            <Link
-            activeClass="active"
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            >
-              <li className="nav-item">Home</li>
-            </Link>
-            <Link
-            activeClass="active"
-            to="pickupline"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            >
-              <li className="nav-item">Brief</li>
-            </Link>
-            <Link
-            activeClass="active"
-            to="tl"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            >
-              <li className="nav-item">Timeline</li>
-            </Link>
-            <Link
-            activeClass="active"
-            to="portfolio"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            >
-              <li className="nav-item">Projects</li>
-            </Link>
-            <Link
-            activeClass="active"
-            to="contacts"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            >
-              <li className="nav-item">Contacts</li>
-            </Link>
+            <li className="nav-item">
+              <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                activeClass="active"
+                to="pickupline"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>
+                  Brief
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                activeClass="active"
+                to="tl"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>
+                  Timeline
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                activeClass="active"
+                to="portfolio"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>
+                  Projects
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                activeClass="active"
+                to="contacts"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>
+                  Contacts
+                </Link>
+            </li>
           </ul>
 
           <div className="networks">

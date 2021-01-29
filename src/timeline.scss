@@ -9,5 +9,9 @@
 
     .tl-svg {
         height: -webkit-fill-available;
+        padding: 10px;
+        .tl-1 {
+            @include theme-aware('fill', 'color-primary');
+        }
     }
 }
