@@ -12,10 +12,11 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 5vh 15vw 5vh 15vw ;
+    padding: 10vw;
     h4 {
       display: block;
       position: absolute;
+      font-size: calc(10px + 1vmin);
     }
     path {
       @include theme-aware('fill', 'color-primary');
