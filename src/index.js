@@ -8,6 +8,7 @@ import Navbar from './navbar';
 import Pickupline from './pickupline';
 import Timeline from './timeline';
 import Portfolio from './portfolio';
+import Footer from './footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
     <Pickupline />
     <Timeline />
     <Portfolio />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

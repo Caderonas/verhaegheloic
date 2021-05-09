@@ -25,7 +25,7 @@ function pickupline() {
       <div className="frame" >
 
         <h4>Loïc Verhaeghe {age(b_d)} years old, always be pationate by IT stuff,
-          <br />hopefully I may integrate 19 school soon...
+          <br />currently learning react js and native ...
           <br />Junior fullstack developer
         </h4>
 

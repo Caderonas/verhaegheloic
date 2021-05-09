@@ -14,4 +14,14 @@
             @include theme-aware('fill', 'color-primary');
         }
     }
+    
 }
+
+::-webkit-scrollbar {
+    height: 8px;
+    @include theme-aware('background-color', 'color-secondary');
+}
+::-webkit-scrollbar-thumb {
+    @include theme-aware('background-color', 'color-primary');
+    border-radius: 3px;
+  }
