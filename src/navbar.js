@@ -63,7 +63,7 @@ export default class Navbar extends Component {
               <li className="nav-item">
                 <Link
                 activeClass="active"
-                to="contacts"
+                to="bottom"
                 spy={true}
                 smooth={true}
                 offset={-70}

@@ -1,5 +1,6 @@
 import React from 'react';
 import './pickupline.scss';
+import 'animate.css/animate.css'
 
 const b_d = new Date("August 8, 1997");
 /**
@@ -17,14 +18,13 @@ const age = function (d_d){
 	  adj = new Date().getDate()-d_d.getDate()>=0?adj:0;
   	return years+adj;
 };
-
 function pickupline() {
   return (
     <div className="pickupline" alt="pickupline_pro">
 
-      <div className="frame" >
-
-        <h4>Loïc Verhaeghe {age(b_d)} years old, always be pationate by IT stuff,
+      <div className="frame">
+    
+        <h4 id="brief" className="animate__backInDown">Loïc Verhaeghe {age(b_d)} years old, always be pationate by IT stuff,
           <br />currently learning react js and native ...
           <br />Junior fullstack developer
         </h4>
