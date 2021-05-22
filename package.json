@@ -1,8 +1,8 @@
 {
   "homepage": "https://Caderonas.github.io/verhaegheloic",
   "name": "verhaegheloic",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
   "dependencies": {
     "animate.css": "^4.1.1",
     "jquery": "^3.5.1",
