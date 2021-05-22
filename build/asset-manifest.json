@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/verhaegheloic/static/css/main.57ee7440.chunk.css",
-    "main.js": "/verhaegheloic/static/js/main.08e417c3.chunk.js",
-    "main.js.map": "/verhaegheloic/static/js/main.08e417c3.chunk.js.map",
-    "runtime-main.js": "/verhaegheloic/static/js/runtime-main.e55c74ef.js",
-    "runtime-main.js.map": "/verhaegheloic/static/js/runtime-main.e55c74ef.js.map",
+    "main.css": "/verhaegheloic/static/css/main.482df3ba.chunk.css",
+    "main.js": "/verhaegheloic/static/js/main.4653118b.chunk.js",
+    "main.js.map": "/verhaegheloic/static/js/main.4653118b.chunk.js.map",
+    "runtime-main.js": "/verhaegheloic/static/js/runtime-main.c5b92299.js",
+    "runtime-main.js.map": "/verhaegheloic/static/js/runtime-main.c5b92299.js.map",
     "static/css/2.a1596f27.chunk.css": "/verhaegheloic/static/css/2.a1596f27.chunk.css",
-    "static/js/2.fbeef88b.chunk.js": "/verhaegheloic/static/js/2.fbeef88b.chunk.js",
-    "static/js/2.fbeef88b.chunk.js.map": "/verhaegheloic/static/js/2.fbeef88b.chunk.js.map",
-    "static/js/3.8d349410.chunk.js": "/verhaegheloic/static/js/3.8d349410.chunk.js",
-    "static/js/3.8d349410.chunk.js.map": "/verhaegheloic/static/js/3.8d349410.chunk.js.map",
+    "static/js/2.f9b3106f.chunk.js": "/verhaegheloic/static/js/2.f9b3106f.chunk.js",
+    "static/js/2.f9b3106f.chunk.js.map": "/verhaegheloic/static/js/2.f9b3106f.chunk.js.map",
+    "static/js/3.1ce1d93f.chunk.js": "/verhaegheloic/static/js/3.1ce1d93f.chunk.js",
+    "static/js/3.1ce1d93f.chunk.js.map": "/verhaegheloic/static/js/3.1ce1d93f.chunk.js.map",
     "index.html": "/verhaegheloic/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/verhaegheloic/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.57ee7440.chunk.css.map": "/verhaegheloic/static/css/main.57ee7440.chunk.css.map",
-    "static/js/2.fbeef88b.chunk.js.LICENSE.txt": "/verhaegheloic/static/js/2.fbeef88b.chunk.js.LICENSE.txt"
+    "static/css/main.482df3ba.chunk.css.map": "/verhaegheloic/static/css/main.482df3ba.chunk.css.map",
+    "static/js/2.f9b3106f.chunk.js.LICENSE.txt": "/verhaegheloic/static/js/2.f9b3106f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e55c74ef.js",
+    "static/js/runtime-main.c5b92299.js",
     "static/css/2.a1596f27.chunk.css",
-    "static/js/2.fbeef88b.chunk.js",
-    "static/css/main.57ee7440.chunk.css",
-    "static/js/main.08e417c3.chunk.js"
+    "static/js/2.f9b3106f.chunk.js",
+    "static/css/main.482df3ba.chunk.css",
+    "static/js/main.4653118b.chunk.js"
   ]
 }
