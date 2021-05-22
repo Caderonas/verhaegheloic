@@ -11,7 +11,7 @@ body {
     -ms-overflow-style: none;
     -moz-osx-font-smoothing: grayscale;
     
-    h1, h2, h3 {
+    h1, h3 {
         font-family: 'Bodoni Moda', serif;
         @include theme-aware('color', 'color-secondary');
     }
@@ -38,9 +38,14 @@ body {
         line-height: 5vh;
     }
 
-    h5, h6 {
+    h2, h5, h6 {
         font-family: 'Open Sans', sans-serif;
+        h2 {
+        @include theme-aware('color', 'color-secondary');
+        }
+        h5, h6 {
         @include theme-aware('color', 'color-light');
+        }
     }
 
     ul {

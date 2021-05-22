@@ -24,7 +24,7 @@ function pickupline() {
 
       <div className="frame">
     
-        <h4 id="brief" className="animate__backInDown">Loïc Verhaeghe {age(b_d)} years old, always be pationate by IT stuff,
+        <h4 id="brief" className="animate__backInDown">I'm {age(b_d)} years old, always be pationate by IT stuff,
           <br />currently learning react js and native ...
           <br />Junior fullstack developer
         </h4>

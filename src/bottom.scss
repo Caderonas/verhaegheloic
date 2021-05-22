@@ -1,10 +1,11 @@
 @import "./theme.scss";
 .bottom {
     position: relative;
-    height: 60vmin;
+    height: 95vh;
     display: grid;
     align-content: center;
     text-align: center;
+    vertical-align: middle;
 }
 .bottom_svg {
     width: auto;
@@ -13,26 +14,11 @@
     margin: 40em;
     margin-left: 45em;
 }
-footer{
-    svg {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100vw;
-      .frame {
-        @include theme-aware('fill', 'color-secondary');
-      }
-      .sub-frame {
-        fill-opacity: 0.15;
-      }
-      .button{
-        @include theme-aware('fill', 'color-light');
-      }
-    }
-  }
 .separator {
     position: absolute;
+    width: 100%;
     top: -1px;
+    left: 0;
 }
 .separator1,.separator2{
     fill:#273040;
@@ -45,8 +31,9 @@ footer{
     }
 .contacts {
     position: relative;
-    height: 15em;
-    left: 27em;
+    width: 45vw;
+    left: 1vw;
+    margin: 0 auto;
 }
 .contact1,.contact2,.contact4,.contact5{
     fill:#273040;
@@ -67,3 +54,7 @@ footer{
 .contact5{
     fill-rule:evenodd;
     }
+.text_contact{
+    position: relative;
+    left: 0.5vw;
+}

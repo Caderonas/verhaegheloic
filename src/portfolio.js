@@ -12,12 +12,12 @@ class portfolio extends React.Component {
                 </svg>
                 <ul>
                     <li>
-                        <h4><a href="https://github.com/Caderonas/lamouscronnoise">La Mouscronnoise</a></h4>
+                        <h4><a href="https://github.com/Caderonas/lamouscronnoise" target="_blank" rel="noreferrer">La Mouscronnoise</a></h4>
                         <p>I made this website a few years ago for student group which I'm a part of for 4 years now.</p>
                         <p>Most of work is on the backend in PHP.</p>
                     </li>
                     <li>
-                        <h4><a href="https://github.com/Caderonas/Mouscron_Eurometropolitan_city">Eurometropolitan</a></h4>
+                        <h4><a href="https://github.com/Caderonas/Mouscron_Eurometropolitan_city" target="_blank" rel="noreferrer">Eurometropolitan</a></h4>
                         <p>This page was asked by a friends who has to present his final study work as architect remotly.</p>
                         <p>I made this easy way to discover his work with map and pictures.</p>
                     </li>
