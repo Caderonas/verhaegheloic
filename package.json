@@ -1,12 +1,9 @@
 {
-  "homepage": "https://caderonas.github.io/me/",
+  "homepage": "https://Caderonas.github.io/verhaegheloic",
   "name": "verhaegheloic",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.8",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.6.0",
     "animate.css": "^4.1.1",
     "jquery": "^3.5.1",
     "node-sass": "^4.0.0",
@@ -27,12 +24,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
