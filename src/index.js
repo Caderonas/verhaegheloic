@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import './index.scss';
 
 import Home from './home';
@@ -12,12 +11,6 @@ import Bottom from './bottom';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Route path="/" component={index.html} exact />
-      <Redirect to="/" />
-    </Switch>
-  </BrowserRouter>,
   <React.StrictMode>
     <Navbar />
     <Home />
