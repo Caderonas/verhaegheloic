@@ -17,7 +17,7 @@ class portfolio extends React.Component {
                         <p>Most of work is on the backend in PHP.</p>
                     </li>
                     <li>
-                        <h4><a href="https://github.com/Caderonas/Mouscron_Eurometropolitan_city" target="_blank" rel="noreferrer">Eurometropolitan</a></h4>
+                        <h4><a href="https://caderonas.github.io/Mouscron_Eurometropolitan_city/" target="_blank" rel="noreferrer">Eurometropolitan</a></h4>
                         <p>This page was asked by a friends who has to present his final study work as architect remotly.</p>
                         <p>I made this easy way to discover his work with map and pictures.</p>
                     </li>
