@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/verhaegheloic/static/css/main.0d405a33.chunk.css",
-    "main.js": "/verhaegheloic/static/js/main.3ccff726.chunk.js",
-    "main.js.map": "/verhaegheloic/static/js/main.3ccff726.chunk.js.map",
+    "main.js": "/verhaegheloic/static/js/main.931927a0.chunk.js",
+    "main.js.map": "/verhaegheloic/static/js/main.931927a0.chunk.js.map",
     "runtime-main.js": "/verhaegheloic/static/js/runtime-main.1ff5091c.js",
     "runtime-main.js.map": "/verhaegheloic/static/js/runtime-main.1ff5091c.js.map",
     "static/css/2.a1596f27.chunk.css": "/verhaegheloic/static/css/2.a1596f27.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.d2355bf7.chunk.js",
     "static/css/main.0d405a33.chunk.css",
-    "static/js/main.3ccff726.chunk.js"
+    "static/js/main.931927a0.chunk.js"
   ]
 }
