@@ -1,28 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
+import {render} from 'react-dom';
+import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 
-import Home from './home';
-import Navbar from './navbar';
-import Pickupline from './pickupline';
-import Timeline from './timeline';
-import Portfolio from './portfolio';
-import Bottom from './bottom';
-import reportWebVitals from './reportWebVitals';
+import Daypage from './daypage';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Navbar />
-    <Home />
-    <Pickupline />
-    <Timeline />
-    <Portfolio />
-    <Bottom />
-  </React.StrictMode>,
-  document.getElementById('root')
+const App = () => (
+  <BrowserRouter>
+    <Switch>
+      <Route exact path="/" component={Daypage} />
+      <Redirect to="/" />
+    </Switch>
+  </BrowserRouter>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+render(<App />, document.getElementById("root"));
