@@ -1,13 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.scss';
 
-import Home from './home';
-import Navbar from './navbar';
-import Pickupline from './pickupline';
-import Timeline from './timeline';
-import Portfolio from './portfolio';
-import Bottom from './bottom';
+import Home from './Day/home';
+import Navbar from './Day/navbar';
+import Pickupline from './Day/pickupline';
+import Timeline from './Day/timeline';
+import Portfolio from './Day/portfolio';
+import Bottom from './Day/bottom';
 
 function Daypage() {
     return (
