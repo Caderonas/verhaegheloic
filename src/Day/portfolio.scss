@@ -1,0 +1,53 @@
+@import "../theme.scss";
+
+.portfolio {
+    height: 95vh;
+    @include theme-aware('background-color', 'color-secondary');
+    
+    .header {
+      width: 100vw;
+      fill: none;
+      path {
+        @include theme-aware('stroke', 'color-primary');
+        opacity: 0.7;
+        stroke-width: 3px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    }
+    ul {
+      display: flex;
+      padding: 10vw;
+      li {
+        padding: 3vw;
+        img {
+          height: 10vh;
+        }
+        h4, a {
+          font-size: calc(10px + 1.5vmin);
+          text-decoration: none;
+        }
+        a:hover {
+          color: inherit;
+          animation-duration: 1.2s;
+          animation-name: link;
+          animation-iteration-count: infinite;
+          animation-direction: alternate-reverse;
+        }
+        @keyframes link {
+          from {
+              opacity: 0.4;
+          }
+          to {
+              opacity: 1;
+          }
+        }
+        a:link, a:visited {
+          color: inherit;
+        }
+        p {
+          font-size: calc(10px + 1vmin);
+          }
+      }
+    }
+  }
