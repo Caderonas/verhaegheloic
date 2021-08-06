@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { SocialIcon } from 'react-social-icons';
 
 import './navbar.scss';
-export default class Navbar extends Component {
+export default class DayNavbar extends Component {
   render() {
     return (
       <nav>

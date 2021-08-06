@@ -1,7 +1,132 @@
-@import "../theme.scss";
-
-.clipvideo {
-    display: contents;
-    width: 100%;
-    height: 100%;
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes logoin {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes arrow-move {
+  0% {
+    transform: translateY(-25%);
+    opacity: 0.705;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.405;
+  }
+}
+
+.home_night {
+    display: block;
+    background-color: black;
+    height: 100vh;
+    .bg_img {
+        background-image: url(./index1.png);
+        height: 100vh;
+        z-index: 1;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
+        }
+    .ft_img {
+        background-image: url(./index2.png);
+        height: 40vh;
+        z-index: 2;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
+    navs {
+        position: fixed;
+        display: flex;
+        z-index: 3;
+        width: 100vw;
+        height: 12vh;
+        align-items: center;
+        justify-content: center;
+        .menu-icon {
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 3vw;
+            img {
+                height: 11vh;
+                animation: 1.7s ease-out 0s 1 logoin;
+            }
+        }
+        li {
+            display: inline-block;
+            padding: 2.5vw;;
+            vertical-align: middle;
+            a {
+                color:rgba(175, 173, 173, 0.705);
+                text-decoration: none;
+                font-size: 1.5em;
+                letter-spacing: 0.15em;
+                text-transform: uppercase;
+                display: inline-block;
+                padding: 15px 20px;
+                position: relative;
+            }
+            a:after {
+                background: none repeat scroll 0 0 transparent;
+                bottom: 0;
+                content: "";
+                display: block;
+                height: 2px;
+                left: 50%;
+                position: absolute;
+                background: #fff;
+                transition: width 0.3s ease 0s, left 0.3s ease 0s;
+                width: 0;
+            }
+            a:hover:after { 
+                width: 100%; 
+                left: 0; 
+            }
+            a.none {
+                pointer-events: none;
+            }
+            a.left {
+                animation: 1.5s ease-out 0s 1 slideInFromLeft;
+            }
+            a.right {
+                animation: 1.5s ease-out 0s 1 slideInFromRight;
+            }
+        }
+    }
+    .arrow-bottom {
+        position: absolute;
+        fill: none;
+        bottom: 1vh;
+        left: 50vw;
+        animation: 2s ease-out 0.2s infinite running arrow-move;
+        path {
+            fill: rgba(175, 173, 173, 0.705);
+        }
+    }
+}
+
