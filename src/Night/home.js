@@ -1,12 +1,17 @@
 import React, {Component} from 'react';
-import { useSpring, animated } from 'react-spring'
-
+import { useSpring, animated } from 'react-spring';
 import './home.scss';
 
 import { MenuItems } from "./MenuItems";
 import Logo_night from './logo-caderonas.svg';
 class NavBar extends Component {
+  componentDidMount () {      
+    window.onscroll =()=>{
+        this.setState({currentScrollHeight: window.scrollY})
+    }
+  }
   render() {
+    //const opacity = Math.min(100 / this.state.currentScrollHeight  , 1)
     return (
       <navs className="Navbar">
         <div className="menu-icon">

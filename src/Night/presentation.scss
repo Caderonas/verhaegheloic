@@ -1,8 +1,41 @@
 * {
 	box-sizing: border-box;
 }
+section {
+	display: block;
+	position: absolute;
+	width: 35vw;
+}
+.topLeft {
+	top: 23vh;
+	left: 2vw;
+	#arrow_left {
+		width: 12vw;
+		top: 23vh;
+		left: 26vw;
+		transform: scaleX(-1);
+		opacity: 0.2;
+	}
+}
+.topRight {
+	top: 23vh;
+	right: 2vw;
+	#arrow_right {
+		width: 12vw;
+		top: 23vh;
+		right: 26vw;
+		opacity: 0.2;
+	}
+}
+#arrow_1 {
+	width: 10vw;
+	fill: rgba(175, 173, 173, 0.705);
+}
+#arrow_right:hover, #arrow_left:hover {
+	opacity:0.35;
+	
+}
 .presentation {
 	position: relative;
 	top: -1.5vh;
-	background-color: white;
 }
